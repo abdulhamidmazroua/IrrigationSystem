@@ -1,4 +1,4 @@
-# irrigation system REST API
+# Automatic Irrigation system REST API
 
 ## Plot of Land Endpoints:
 
