@@ -22,10 +22,9 @@ public class IrrigationRestController {
 
     private final PlotService plotService;
     private final TimeSlotService timeSlotService;
-
     private final ConfigurationService configurationService;
-
     private final IntegrationService integrationService;
+
     @Autowired
     public IrrigationRestController(PlotService plotService, TimeSlotService timeSlotService,
                                     ConfigurationService configurationService, IntegrationService integrationService) {
@@ -66,7 +65,6 @@ public class IrrigationRestController {
 
         return ResponseEntity.ok("Plot of Land Configured Successfully");
     }
-
 
 
     // the following endpoints for the automatic irrigation system
