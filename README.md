@@ -1,7 +1,7 @@
 
 # Irrigation System REST API
 
-## Introduction:
+## Introduction
 This Irrigation System API simulates an Automatic Irrigation System via exposing several endpoints for managing the plots of land and simulating the irrigation process.
 I have also used JUnit for testing the exposed endpoints.
 This README provides detailed instructions on how to configure and use the API easily.
