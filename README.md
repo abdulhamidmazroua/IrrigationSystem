@@ -5,7 +5,6 @@
 
 =======
 # Automatic Irrigation system REST API
->>>>>>> e50d02d08d6a0ee5abd1e536e6b186bf788c368a
 
 ## Plot of Land Endpoints:
 
