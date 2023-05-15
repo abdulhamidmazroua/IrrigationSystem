@@ -10,6 +10,7 @@ This README provides detailed instructions on how to configure and use the API e
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Configuration](#configuration)
+- [Database schema](#database-schema)
 - [Testing](#testing)
 - [Endpoints and Usage](#endpoints-and-usage)
 - [Support](#support)
@@ -27,6 +28,9 @@ This README provides detailed instructions on how to configure and use the API e
 ## Configuration
 1. Run the [irrigation_directory_script.sql](sql_script/irrigation_dirctory_script.sql) on your MySQL environment.
 2. Checkout the [application.properties](src/main/resources/application.properties) file for the default database URL / Username / Password.
+
+## Database schema
+![Schema](sql_script/ERD.JPG)
 
 ## Testing
 - You can simply use the [IrrigationSystemApiTest](src/test/java/hameed/irrigationsystem/IrrigationSystemApiTest.java) class to test all the endpoints at once.
